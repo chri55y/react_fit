@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'bootstrap/dist/css/bootstrap.css';
 
 class Dashboard extends React.Component {
     constructor(props) {
@@ -10,11 +11,11 @@ class Dashboard extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>
-                    React Fit
-                </h1>
-                <p>Your personal fitness dashboard:</p>
+            <div className="container">
+                <header className="text-center">
+                    <h1 className="page-header">React Fit</h1>
+                    <p className="lead">Your personal fitness dashboard:</p>
+                </header>
             </div>
         )
     }
