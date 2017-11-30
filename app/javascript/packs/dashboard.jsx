@@ -9,8 +9,19 @@ class Dashboard extends React.Component {
     }
 
 
+
+    // fitbit authentication : (there are some rubgems for doing this in rails, but not up-to-date, so ...)
+    //      using client side authentication :
+    //      > going directly to url
+    //      > readinding auth. token from url hash param
+    //
+    //     implicit grant flow
+    //
+    //     more @: https://dev.fitbit.com/reference/web-api/oauth2/
+    //
+    //  <!-- need to change the following in URL below: client_id, redirect_uri -->
     render() {
-        //  <!-- need to change the following in URL below: client_id, redirect_uri -->
+
         return (
             <div>
                 <div className="container">
