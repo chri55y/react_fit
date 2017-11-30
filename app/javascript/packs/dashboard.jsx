@@ -8,6 +8,14 @@ class Dashboard extends React.Component {
 
     }
 
+    componentDidMount() {
+        if  ( window.location.hash ) {
+            // window url has a hash
+            let fitbitToken = window.location.hash.slice(1).split("&")[0].replace("access_token=","")
+            console.log("Token: "+fitbitToken)
+
+        }
+    }
 
 
     // fitbit authentication : (there are some rubgems for doing this in rails, but not up-to-date, so ...)
