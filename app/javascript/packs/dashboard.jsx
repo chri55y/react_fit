@@ -17,7 +17,20 @@ class Dashboard extends React.Component {
             // window url has a hash
             let fitbitToken = window.location.hash.slice(1).split("&")[0].replace("access_token=","")
             console.log("Token: "+fitbitToken)
-            this.setState({loggedIn: true })
+
+            axios({
+                method: 'get',
+                url:    'https://api.fitbit.com/1/user/-/profile.json',
+                headers: { 'Authorization': 'Bearer '+ fitbitToken },
+                mode:   'cors'
+            })
+            .then(response => {
+                console.log(response)
+                this.setState({user: response.data, loggedIn: true })
+            })
+                .catch(error => console.log(error))
+
+            //this.setState({loggedIn: true })
         }
     }
 
