@@ -7,7 +7,7 @@ class Dashboard extends React.Component {
         super(props)
         this.state = {
             user:       {},     // initially empty
-            loggedIn:   false
+            loggedIn:   false   // log in status > false means no
         }
     }
 
@@ -16,7 +16,7 @@ class Dashboard extends React.Component {
             // window url has a hash
             let fitbitToken = window.location.hash.slice(1).split("&")[0].replace("access_token=","")
             console.log("Token: "+fitbitToken)
-
+            this.setState({loggedIn: true })
         }
     }
 
@@ -43,11 +43,13 @@ class Dashboard extends React.Component {
                     </header>
                 </div>
 
-                <div className="row text-center">
-                    <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228HFZ&redirect_uri=http%3A%2F%localhost%3A%2Ffitbit_auth&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800\n" >
-                        Log in with fitbit
-                    </a>
-                </div>
+                {!this.state.loggedIn &&
+                    <div className="row text-center">
+                        <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228HFZ&redirect_uri=http%3A%2F%localhost%3A%2Ffitbit_auth&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800\n">
+                            Log in with fitbit
+                        </a>
+                    </div>
+                }
             </div>
         )
     }

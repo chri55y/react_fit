@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167b2b13-a322-460f-8741-2b32d67a5708" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" afterPath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -42,10 +41,11 @@
       <file leaf-file-name="dashboard.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="193">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#665#680#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -268,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511900491458</updated>
-      <workItem from="1511900492702" duration="7823000" />
+      <workItem from="1511900492702" duration="8206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7823000" />
+    <option name="totallyTimeSpent" value="8206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="112" y="23" width="1250" height="745" extended-state="0" />
@@ -355,10 +355,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="193">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#665#680#0" expanded="false" />
           </folding>
         </state>
       </provider>
