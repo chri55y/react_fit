@@ -5,7 +5,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 class Dashboard extends React.Component {
     constructor(props) {
         super(props)
-
+        this.state = {
+            user:       {},     // initially empty
+            loggedIn:   false
+        }
     }
 
     componentDidMount() {
@@ -17,8 +20,9 @@ class Dashboard extends React.Component {
         }
     }
 
-
-    // fitbit authentication : (there are some rubgems for doing this in rails, but not up-to-date, so ...)
+    //  CH 11-29-17
+    //
+    //  fitbit authentication : (there are some rubgems for doing this in rails, but not up-to-date, so ...)
     //      using client side authentication :
     //      > going directly to url
     //      > readinding auth. token from url hash param
