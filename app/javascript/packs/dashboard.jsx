@@ -26,7 +26,7 @@ class Dashboard extends React.Component {
             })
             .then(response => {
                 console.log(response)
-                this.setState({user: response.data, loggedIn: true })
+                this.setState({user: response.data.user, loggedIn: true })
             })
                 .catch(error => console.log(error))
 
@@ -52,6 +52,7 @@ class Dashboard extends React.Component {
             <div>
                 <div className="container">
                     <header className="text-center">
+                        <span className="pull-right">{this.state.user.displayName}</span>
                         <h1 className="page-header">React Fit</h1>
                         <p className="lead">Your personal fitness dashboard:</p>
                     </header>
