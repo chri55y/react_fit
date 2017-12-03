@@ -31,6 +31,21 @@ class Dashboard extends React.Component {
                 .catch(error => console.log(error))
 
             //this.setState({loggedIn: true })
+
+
+            // https://api.fitbit.com/1/user/[user-id]/activities.json
+            axios({
+                method: 'get',
+                url:    'https://api.fitbit.com/1/user/-/activities.json',
+                headers: { 'Authorization': 'Bearer '+ fitbitToken },
+                mode:   'cors'
+            })
+                .then(response => {
+                    console.log(response)
+                    // this.setState({user: response.data.user, loggedIn: true })
+                })
+                .catch(error => console.log(error))
+
         }
     }
 
