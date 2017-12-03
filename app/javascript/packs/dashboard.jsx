@@ -44,7 +44,7 @@ class Dashboard extends React.Component {
             })
                 .then(response => {
                     console.log(response)
-                    // this.setState({user: response.data.user, loggedIn: true })
+                    this.setState({lifetimeBest: response.data.best.total, lifetimeTotals: response.data.lifetime.total })
                 })
                 .catch(error => console.log(error))
 
@@ -88,6 +88,9 @@ class Dashboard extends React.Component {
                         <div className="panel panel-default">
                             <div className="panel-heading"><h4>Lifetime Stats</h4></div>
                             <div className="panel-body">
+                                <h4>Steps:</h4>
+                                <p>Total: {this.state.lifetimeTotals.steps}</p>
+                                <p>Best: {this.state.lifetimeBest.steps}</p>
                             </div>
                         </div>
 
