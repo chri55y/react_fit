@@ -7,8 +7,10 @@ class Dashboard extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            user:       {},     // initially empty
-            loggedIn:   false   // log in status > false means no
+            user:           {}    , // initially empty
+            loggedIn:       false , // log in status > false means no
+            lifetimeBest:   {}    , //
+            lifetimeTotals: {}      //
         }
     }
 
