@@ -27,6 +27,7 @@ class Dashboard extends React.Component {
                 mode:   'cors'
             })
             .then(response => {
+                console.log('\nprofile response object:')
                 console.log(response)
                 this.setState({user: response.data.user, loggedIn: true })
             })
@@ -43,7 +44,9 @@ class Dashboard extends React.Component {
                 mode:   'cors'
             })
                 .then(response => {
+                    console.log('\nactivities response object:')
                     console.log(response)
+
                     this.setState({lifetimeBest: response.data.best.total, lifetimeTotals: response.data.lifetime.total })
                 })
                 .catch(error => console.log(error))
