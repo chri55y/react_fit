@@ -95,9 +95,10 @@ class Dashboard extends React.Component {
                             <div className="panel-body">
                                 <h4>Steps:</h4>
                                 <p>Total: {this.state.lifetimeTotals.steps}</p>
-                                <p>Best: {  this.state.loggedIn &&
-                                            this.state.lifetimeBest.steps.value}
+                                {this.state.loggedIn &&
+                                <p>Best: {this.state.lifetimeBest.steps.value}
                                 </p>
+                                }
                             </div>
                         </div>
 
