@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167b2b13-a322-460f-8741-2b32d67a5708" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" afterPath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -42,11 +41,14 @@
       <file leaf-file-name="dashboard.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="195">
+              <caret line="93" column="88" lean-forward="false" selection-start-line="93" selection-start-column="88" selection-end-line="93" selection-end-column="88" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#2004#2019#0" expanded="false" />
+                <element signature="e#2237#2252#0" expanded="false" />
+                <element signature="e#4359#4600#0" expanded="false" />
+                <element signature="e#4649#5042#0" expanded="false" />
+                <element signature="e#5064#5305#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -270,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511900491458</updated>
       <workItem from="1511900492702" duration="13404000" />
-      <workItem from="1512178237112" duration="4696000" />
+      <workItem from="1512178237112" duration="11116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18100000" />
+    <option name="totallyTimeSpent" value="24520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="23" width="860" height="745" extended-state="0" />
@@ -335,7 +337,10 @@
           <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#2004#2019#0" expanded="false" />
+            <element signature="e#2237#2252#0" expanded="false" />
+            <element signature="e#4359#4600#0" expanded="false" />
+            <element signature="e#4649#5042#0" expanded="false" />
+            <element signature="e#5064#5305#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -379,11 +384,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="195">
+          <caret line="93" column="88" lean-forward="false" selection-start-line="93" selection-start-column="88" selection-end-line="93" selection-end-column="88" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#2004#2019#0" expanded="false" />
+            <element signature="e#2237#2252#0" expanded="false" />
+            <element signature="e#4359#4600#0" expanded="false" />
+            <element signature="e#4649#5042#0" expanded="false" />
+            <element signature="e#5064#5305#0" expanded="false" />
           </folding>
         </state>
       </provider>
