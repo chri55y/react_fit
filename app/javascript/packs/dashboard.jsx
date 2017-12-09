@@ -96,7 +96,8 @@ class Dashboard extends React.Component {
                                 <h4>Steps:</h4>
                                 <p>Total: {this.state.lifetimeTotals.steps}</p>
                                 {this.state.loggedIn &&
-                                <p>Best: {this.state.lifetimeBest.steps.value}
+                                <p>
+                                    Best: {this.state.lifetimeBest.steps.value} on {this.state.lifetimeBest.steps.date}
                                 </p>
                                 }
                             </div>
