@@ -46,10 +46,10 @@ class Dashboard extends React.Component {
                 .then(response => {
                     console.log('\nactivities response object:')
                     console.log(response)
-                    console.log('\tpre-state change\t' + response.data.best.total.steps.value)
+                    // console.log('\tpre-state change\t' + response.data.best.total.steps.value)
                     this.setState({lifetimeBest: response.data.best.total, lifetimeTotals: response.data.lifetime.total })
-                    console.log('\tpost-state change\t' + this.state.lifetimeBest.steps.value)
-                    console.log(this.state)
+                    // console.log('\tpost-state change\t' + this.state.lifetimeBest.steps.value)
+                    // console.log(this.state)
                 })
                 .catch(error => console.log(error))
 
