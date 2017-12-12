@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import axios from 'axios';  // for making ajax calls. axios is a promise base library
+import LifetimeStats from './lifetimeStats';
 
 class Dashboard extends React.Component {
     constructor(props) {
@@ -90,8 +91,9 @@ class Dashboard extends React.Component {
 
                 <div className="row">
                     <div className="col-lg-3">
-
-
+                        {this.state.loggedIn &&
+                        <LifetimeStats lifetimeTotals={this.state.lifetimeTotals} lifetimeBest={this.state.lifetimeBest} />
+                        }
                         <div className="panel panel-default">
                             <div className="panel-heading"><h4>Badges</h4></div>
                             <div className="panel-body">
