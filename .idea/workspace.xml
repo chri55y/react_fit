@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="167b2b13-a322-460f-8741-2b32d67a5708" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" afterPath="$PROJECT_DIR$/app/javascript/packs/dashboard.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/lifetimeStats.jsx" afterPath="$PROJECT_DIR$/app/javascript/packs/lifetimeStats.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="dashboard.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+            <state relative-caret-position="443">
+              <caret line="99" column="34" lean-forward="true" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#2291#2306#0" expanded="false" />
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/lifetimeStats.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -277,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511900491458</updated>
       <workItem from="1511900492702" duration="13404000" />
-      <workItem from="1512178237112" duration="14821000" />
+      <workItem from="1512178237112" duration="15145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28225000" />
+    <option name="totallyTimeSpent" value="28549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="745" y="-1080" width="925" height="1080" extended-state="0" />
@@ -388,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+        <state relative-caret-position="443">
+          <caret line="99" column="34" lean-forward="true" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#2291#2306#0" expanded="false" />
@@ -402,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/lifetimeStats.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import axios from 'axios';  // for making ajax calls. axios is a promise base library
-import LifetimeStats from './lifetimeStats';
+import LifetimeStats from './LifetimeStats';
 
 class Dashboard extends React.Component {
     constructor(props) {
